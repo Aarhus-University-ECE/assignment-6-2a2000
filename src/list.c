@@ -28,7 +28,8 @@ int size(node *l){
    assert(l!=NULL);
    int counter;
   node *p = l;
-  while (p!=NULL){
+  while (p!=NULL){ //run while loop if not empty add the element to the next
+  
     counter ++;
     p = p -> next;
   }
